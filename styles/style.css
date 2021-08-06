@@ -73,8 +73,9 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 29px;
+    grid-row-gap: 45px;
     margin-bottom: 100px;
+    grid-column-gap: 30px;
 }
 .single-player{
     width: 300px;
